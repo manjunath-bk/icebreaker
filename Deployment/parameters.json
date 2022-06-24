@@ -1,0 +1,94 @@
+{
+  "subscriptionId": {
+    "Value": "60e96dfd-40dd-4bea-861d-0c6cbcca8027",
+    "Description": "Azure Subscription AZR-PROD-VIRGINIA. All resources in an Azure subscription are billed together."
+  },
+  "subscriptionTenantId": {
+    "Value": "b67d722d-aa8a-4777-a169-ebeb7a6a3b67",
+    "Description": "Thermo Fisher Scientific Prod Tenant"
+  },
+  "resourceGroupName": {
+    "Value": "AZR-RG-PROD-GSG",
+    "Description": "AZR-RG-PROD-GSG RG is part of AZR-PROD-VIRGINIA subscription, this RG is billed to Cost Center 10043047 owner Caitlin Campbell"
+  },
+  "location": {
+    "Value": "East US",
+    "Description": "The Azure region that's right for you and your customers. Not every resource is available in every region."
+  },
+  "baseResourceName": {
+    "Value": "Icebreaker",
+    "Description": "The base name to use for the resources that will be provisioned."
+  },
+  "tenantId": {
+    "Value": "b67d722d-aa8a-4777-a169-ebeb7a6a3b67",
+    "Description": "Tenant Id where the teams application will be installed. If the Azure subscription is in the same tenant, update with \"subscriptionTenantId\" parameter value."
+  },
+  "pairingWeekInterval": {
+    "Value": "4",
+    "Description": "The number of weeks between pairings."
+  },
+  "pairingDayOfWeek": {
+    "Value": "Tuesday",
+    "Description": "The day of the week when pairings are created."
+  },
+  "pairingHour": {
+    "Value": "10",
+    "Description": "The hour at which pairings are created."
+  },
+  "pairingTimeZone": {
+    "Value": "Pacific Standard Time",
+    "Description": "The time zone for the hour at which pairings are created."
+  },
+  "pairingStartKey": {
+    "Value": "",
+    "Description": "Leave empty for auto generation. The unique key used by the function app to notify the bot to start creating pairings."
+  },
+  "sku": {
+    "Value": "Standard",
+    "Description": "The pricing tier for the hosting plan."
+  },
+  "defaultCulture": {
+    "Value": "en",
+    "Description": "Default culture. You can select default culture from the following: en, ar, de, es, fr, he, ja, ko, pt-BR, ru, zh-CN, zh-TW"
+  },
+  "planSize": {
+    "Value": "1",
+    "Description": "The size of the hosting plan (small - 1, medium - 2, or large - 3). Default value: 1"
+  },
+  "gitRepoUrl": {
+    "Value": "https://github.com/OfficeDev/microsoft-teams-apps-icebreaker.git",
+    "Description": "The URL to the GitHub repository to deploy."
+  },
+  "gitBranch": {
+    "Value": "main",
+    "Description": "The branch of the GitHub repository to deploy."
+  },
+  "appDisplayName": {
+    "Value": "Icebreaker",
+    "Description": "The app (and bot) display name."
+  },
+  "appDescription": {
+    "Value": "Icebreaker is a cute little bot that randomly pairs team members up every month to help the team build trust and personal connections.",
+    "Description": "The app (and bot) description."
+  },
+  "appIconUrl": {
+    "Value": "https://raw.githubusercontent.com/OfficeDev/microsoft-teams-icebreaker-app/master/Manifest/color.png",
+    "Description": "The link to the icon for the app. It must resolve to a PNG file."
+  },
+  "companyName": {
+    "Value": "THERMO FISHER SCIENTIFIC",
+    "Description": "The display name for the company."
+  },
+  "websiteUrl": {
+    "Value": "https://www.thermofisher.com/",
+    "Description": "The https:// URL to the company's website. This link should take users to your company or product-specific landing page."
+  },
+  "privacyUrl": {
+    "Value": "https://thermofisher.sharepoint.com/sites/data-privacy",
+    "Description": "The https:// URL to the company's privacy policy."
+  },
+  "termsOfUseUrl": {
+    "Value": "https://thermofisher.sharepoint.com/sites/data-privacy",
+    "Description": "The https:// URL to the company's terms of use."
+  }
+}
