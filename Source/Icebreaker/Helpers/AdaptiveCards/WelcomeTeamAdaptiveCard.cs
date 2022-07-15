@@ -60,7 +60,8 @@ namespace Icebreaker.Helpers.AdaptiveCards
                 teamIntroPart2,
                 teamIntroPart3,
                 welcomeCardImageUrl = $"https://{baseDomain}/Content/welcome-card-image.png",
-                tourUrl = GetTourFullUrl(appId, GetTourUrl(baseDomain), tourTitle),
+                //tourUrl = GetTourFullUrl(appId, GetTourUrl(baseDomain), tourTitle),
+                tourUrl = "https://thermofisher.sharepoint.com/sites/GSOurPeople/SitePages/Hello-GSG.aspx";
                 salutationText = Resources.SalutationTitleText,
                 tourButtonText = Resources.TakeATourButtonText,
             };
